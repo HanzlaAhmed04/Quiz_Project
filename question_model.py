@@ -7,7 +7,7 @@ class Question:
     def abc(self):
         # print(self.text)
         self.text = 2
-        # return self.text
+        return self.text
 
 question_1 = Question("Karachi is the capital of Pakistan", True)
 question_2 = Question("Florida is the capital of USA", False)
